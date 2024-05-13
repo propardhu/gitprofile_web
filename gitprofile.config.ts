@@ -2,24 +2,24 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'propardhu', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -32,135 +32,153 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+        // {
+        //   title: 'Project Name',
+        //   description:
+        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: 'https://example.com',
+        // },
+        // {
+        //   title: 'Project Name',
+        //   description:
+        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: 'https://example.com',
+        // },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
+    title: 'Partha Sai',
+    description: 'portfolio',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'guttikonda-pardhu',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'guttikondaparthasai',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://guttikondaparthasai.info/',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'guttikondaparthasai',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
     'Git',
+    'AWS',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Circle CI',
+    'Vue.JS',
+    'swift',
+    'springBoot JAVA',
+    'C++',
+    'pytorch',
+    'CUDA',
+    'HPC',
+    'Linux',
+    'MLX',
+    'numpy',
+    'MongoDB',
+    'S3 Buckets',
+    'postgresql'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'UTA Health Data Science Lab',
+      position: 'Full Stack Software Engineer',
+      from: '1.5',
+      to: 'years',
+      companyLink: 'https://luberlab.org',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Vantashala',
+      position: 'Full Stack Software Engineer',
+      from: '1.8',
+      to: 'years',
+      companyLink: 'https://vantashala.com',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'AWS Cloud practitioner',
+      body: '',
+      year: 'March 2023',
+      link: 'www.credly.com/badges/acbc9c0f-7670-4afa-b340-b06e1e40d6fd/linked_in_profile',
+    },
+    {
+      name: 'NPTEL Certification - C, C++ and JAVA',
+      body: 'Earned silver medal for securing top 5% in competitive coding in Java.',
+      year: 'March 2019',
+      link: 'https://archive.nptel.ac.in/LocalChapter/statistics/1548/Jan-Apr-2019.html',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of texas at Arlington',
+      degree: 'Mastes in Computer Science',
+      from: 'Graduated GPA',
+      to: '3.9/4',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Sreenidhi Institute of Science & Technology',
+      degree: 'Undergrade',
+      from: 'Graduated GPA',
+      to: '3.8/4',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Adversarial Attack Against a Multimodal Vision Language Model',
+      conferenceName: 'IEEE ISBI',
+      journalName: '',
+      authors: 'Poojitha Thota, Jai Prakash Veerla, Partha Sai Guttikonda, Mohammad S. Nasr, Shirin Nilizadeh, Jacob M. Luber',
+      link: 'https://arxiv.org/abs/2401.02565',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Demonstration of an Adversarial Attack Against a Multimodal Vision Language Model for Pathology Imaging',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'SpatialVisVR',
+      conferenceName: '',
+      journalName: 'ISBI 2024',
+      authors: 'Jai Prakash Veerla, Partha Sai Guttikonda, Amir Hajighasemi, Jillur Rahman Saurav, Aarti Darji, Cody T. Reynolds, Mohamed Mohamed, Mohammad S. Nasr, Helen H. Shang, Jacob M. Luber',
+      link: 'https://arxiv.org/abs/2401.02882',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'An Immersive, Multiplexed Medical Image Viewer With Contextual Similar-Patient Search',
+    },
+    {
+      title: 'Real-Time Diagnostic Integrity Meets Efficiency',
+      conferenceName: '',
+      journalName: '',
+      authors: 'Neel R Vora, Amir Hajighasemi, Cody T. Reynolds, Amirmohammad Radmehr, Mohamed Mohamed, Jillur Rahman Saurav, Abdul Aziz, Jai Prakash Veerla, Mohammad S Nasr, Hayden Lotspeich, Partha Sai Guttikonda, Thuong Pham, Aarti Darji, Parisa Boodaghi Malidarreh, Helen H Shang, Jay Harvey, Kan Ding, Phuc Nguyen, Jacob M Luber',
+      link: 'https://arxiv.org/abs/2312.12587',
+      description:
+        'A Novel Platform-Agnostic Architecture for Physiological Signal Compression',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'medium', // medium | dev
+    username: 'guttikondaparthasai', // to hide blog section, keep it empty
+    limit: 12, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -175,7 +193,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -234,11 +252,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `By Pardhu ❤️`,
 
   enablePWA: true,
 };

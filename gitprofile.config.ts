@@ -103,6 +103,13 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Capital One',
+      position: 'Full Stack Software Engineer',
+      from: '2',
+      to: 'years',
+      companyLink: 'https://capitalOne.com',
+    },
+    {
       company: 'UTA Health Data Science Lab',
       position: 'Full Stack Software Engineer',
       from: '1.5',
@@ -172,6 +179,15 @@ const CONFIG = {
       link: 'https://arxiv.org/abs/2312.12587',
       description:
         'A Novel Platform-Agnostic Architecture for Physiological Signal Compression',
+    },
+    {
+      title: 'Vision-and-Language Transformer using Patch Projection',
+      conferenceName: '',
+      journalName: 'Indian Journal of Natural Sciences',
+      authors: 'Partha Sai Guttikonda',
+      link: 'https://arxiv.org/abs/2312.12587',
+      description:
+        'The performance of Vision-and-Language Pre-training (VLP) on several coupled vision-and-language downstream tasks has been demonstrated.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)

@@ -17,10 +17,10 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 10, // How many projects to display.
+        limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['propardhu/objectdetection', 'propardhu/nodeBackend3-2', 'propardhu/springBoot'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['propardhu/resume-maker','propardhu/PyFileDocker','propardhu/vsanalytics','propardhu/im-partha', 'propardhu/deltaexchange','propardhu/objectdetection', 'propardhu/nodeBackend3-2', 'propardhu/springBoot'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -91,14 +91,18 @@ const CONFIG = {
     'swift',
     'springBoot JAVA',
     'C++',
+    'Java',
+    'python',
+    'javascript',
     'pytorch',
     'CUDA',
-    'HPC',
+    'slurm',
     'Linux',
     'MLX',
     'numpy',
     'MongoDB',
     'S3 Buckets',
+    'AWS lambda',
     'postgresql'
   ],
   experiences: [
@@ -194,7 +198,7 @@ const CONFIG = {
       title: 'Real-Time Diagnostic Integrity Meets Efficiency',
       conferenceName: '',
       journalName: '',
-      authors: 'Neel R Vora, Amir Hajighasemi, Cody T. Reynolds, Amirmohammad Radmehr, Mohamed Mohamed, Jillur Rahman Saurav, Abdul Aziz, Jai Prakash Veerla, Mohammad S Nasr, Hayden Lotspeich, Partha Sai Guttikonda, Thuong Pham, Aarti Darji, Parisa Boodaghi Malidarreh, Helen H Shang, Jay Harvey, Kan Ding, Phuc Nguyen, Jacob M Luber',
+      authors: 'Neel R Vora, Amir Hajighasemi, Cody T. Reynolds, Mohamed Mohamed, Jillur Rahman Saurav, Jai Prakash Veerla, Mohammad S Nasr, Hayden Lotspeich, Partha Sai Guttikonda, Aarti Darji, Helen H Shang, Phuc Nguyen, Jacob M Luber',
       link: 'https://arxiv.org/abs/2312.12587',
       description:
         'A Novel Platform-Agnostic Architecture for Physiological Signal Compression',

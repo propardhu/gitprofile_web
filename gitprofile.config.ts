@@ -112,7 +112,7 @@ const CONFIG = {
     {
       company: 'Vantashala',
       position: 'Full Stack Software Engineer',
-      from: '1.8',
+      from: '2',
       to: 'years',
       companyLink: 'https://vantashala.com',
     },
@@ -178,10 +178,10 @@ const CONFIG = {
   blog: {
     source: 'medium', // medium | dev
     username: 'guttikondaparthasai', // to hide blog section, keep it empty
-    limit: 12, // How many articles to display. Max is 10.
+    limit: 10, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-EGR7E28T14', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
@@ -254,7 +254,7 @@ const CONFIG = {
   // Optional Footer. Supports plain text or HTML.
   footer: `By Pardhu ❤️`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;

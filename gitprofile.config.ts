@@ -12,15 +12,15 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: false, // Display GitHub projects?
+      display: true, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 10, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['propardhu/objectdetection', 'propardhu/nodeBackend3-2', 'propardhu/springBoot'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -122,6 +122,13 @@ const CONFIG = {
       from: '2',
       to: 'years',
       companyLink: 'https://vantashala.com',
+    },
+    {
+      company: 'A4Data',
+      position: 'Software Development Engineer in Test',
+      from: '4',
+      to: 'Months',
+      companyLink: 'https://a4datainc.com/',
     },
   ],
   certifications: [

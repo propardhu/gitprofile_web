@@ -134,9 +134,9 @@ const CONFIG = {
   certifications: [
     {
       name: 'AWS Cloud practitioner',
-      body: '',
+      body: 'Used AWS CloudFormation to automate infrastructure provisioning and management',
       year: '',
-      link: 'www.credly.com/badges/acbc9c0f-7670-4afa-b340-b06e1e40d6fd/linked_in_profile',
+      link: 'https://www.credly.com/badges/acbc9c0f-7670-4afa-b340-b06e1e40d6fd/linked_in_profile',
     },
     {
       name: 'NPTEL Certification - C, C++ and JAVA',

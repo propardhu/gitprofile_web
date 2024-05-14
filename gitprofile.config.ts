@@ -74,9 +74,9 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://guttikondaparthasai.info/',
+    website: 'https://guttikondaparthasai.info',
     phone: '',
-    email: 'guttikondaparthasai',
+    email: 'guttikondaparthasai@gmail.com',
   },
   resume: {
     fileUrl:
@@ -135,14 +135,26 @@ const CONFIG = {
     {
       name: 'AWS Cloud practitioner',
       body: '',
-      year: 'March 2023',
+      year: '',
       link: 'www.credly.com/badges/acbc9c0f-7670-4afa-b340-b06e1e40d6fd/linked_in_profile',
     },
     {
       name: 'NPTEL Certification - C, C++ and JAVA',
       body: 'Earned silver medal for securing top 5% in competitive coding in Java.',
-      year: 'March 2019',
+      year: '',
       link: 'https://archive.nptel.ac.in/LocalChapter/statistics/1548/Jan-Apr-2019.html',
+    },
+    {
+      name: 'Chartwell Scholarship',
+      body: 'Only student to receive Chartwell Scholarship for 3 consecutive semesters from UT Arlington for exceptional research and problem-solving abilities as a student employee',
+      year: '',
+      link: 'https://www.uta.edu/administration/fao/scholarships',
+    },
+    {
+      name: 'PRESENTATION TO INDRA NOOYI',
+      body: 'Recognized by Nooyi’s for exceptional contributions to SpatialVisVR',
+      year: '',
+      link: 'https://arxiv.org/html/2401.02882v1',
     },
   ],
   educations: [
@@ -162,7 +174,7 @@ const CONFIG = {
   publications: [
     {
       title: 'Adversarial Attack Against a Multimodal Vision Language Model',
-      conferenceName: 'IEEE ISBI',
+      conferenceName: 'ISBI 2024',
       journalName: '',
       authors: 'Poojitha Thota, Jai Prakash Veerla, Partha Sai Guttikonda, Mohammad S. Nasr, Shirin Nilizadeh, Jacob M. Luber',
       link: 'https://arxiv.org/abs/2401.02565',
@@ -172,7 +184,7 @@ const CONFIG = {
     {
       title: 'SpatialVisVR',
       conferenceName: '',
-      journalName: 'ISBI 2024',
+      journalName: 'ISBI 2023',
       authors: 'Jai Prakash Veerla, Partha Sai Guttikonda, Amir Hajighasemi, Jillur Rahman Saurav, Aarti Darji, Cody T. Reynolds, Mohamed Mohamed, Mohammad S. Nasr, Helen H. Shang, Jacob M. Luber',
       link: 'https://arxiv.org/abs/2401.02882',
       description:
@@ -216,7 +228,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: true,
+    disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme

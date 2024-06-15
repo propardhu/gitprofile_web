@@ -107,15 +107,8 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Capital One',
-      position: 'Full Stack Software Engineer',
-      from: '2',
-      to: 'years',
-      companyLink: 'https://capitalOne.com',
-    },
-    {
       company: 'UTA Health Data Science Lab',
-      position: 'Full Stack Software Engineer',
+      position: 'Computational Engineer',
       from: '1.5',
       to: 'years',
       companyLink: 'https://luberlab.org',
@@ -128,8 +121,15 @@ const CONFIG = {
       companyLink: 'https://vantashala.com',
     },
     {
+      company: 'Virtusa',
+      position: 'Full Stack Software Engineer Intern',
+      from: '2',
+      to: 'years',
+      companyLink: 'https://www.virtusa.com/',
+    },
+    {
       company: 'A4Data',
-      position: 'Software Development Engineer in Test',
+      position: 'Software Development Engineer in Test Intern',
       from: '4',
       to: 'Months',
       companyLink: 'https://a4datainc.com/',

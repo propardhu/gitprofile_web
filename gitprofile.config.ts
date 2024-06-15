@@ -116,15 +116,15 @@ const CONFIG = {
     {
       company: 'Vantashala',
       position: 'Full Stack Software Engineer',
-      from: '2',
+      from: '1.5',
       to: 'years',
       companyLink: 'https://vantashala.com',
     },
     {
       company: 'Virtusa',
       position: 'Full Stack Software Engineer Intern',
-      from: '2',
-      to: 'years',
+      from: '4',
+      to: 'Months',
       companyLink: 'https://www.virtusa.com/',
     },
     {

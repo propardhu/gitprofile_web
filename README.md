@@ -30,8 +30,12 @@
     <a href="https://github.com/arifszn/gitprofile/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/arifszn/gitprofile"/>
     </a>
-    <a href="https://twitter.com/intent/tweet?text=Check%20out%20the%20portfolio%20builder.%20Create%20an%20automatic%20portfolio%20based%20on%20GitHub%20profile.&url=https://github.com/arifszn/gitprofile&hashtags=javascript,opensource,js,webdev,developers">
-      <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Farifszn%2Fgitprofile"/>
+    <a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Farifszn%2Fgitprofile">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.idx.dev/btn/open_dark_20.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://cdn.idx.dev/btn/open_light_20.svg">
+        <img height="20" alt="Open in IDX" src="https://cdn.idx.dev/btn/open_purple_20.svg">
+      </picture>
     </a>
   </p>
 
